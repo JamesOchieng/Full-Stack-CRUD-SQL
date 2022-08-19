@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "Patri$ia1994",
+    password: "",
     database: "crud_contact"
 })
 
